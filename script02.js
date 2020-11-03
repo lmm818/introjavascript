@@ -1,6 +1,13 @@
-var thisArray = ["tiny", "extra", "lord", "human", "uhhh", "icy"];
+var fnum = 6;
+var snum = 7;
 
-var thought1 = Math.floor(Math.random() * thisArray.length);
-var thought2 = Math.floor(Math.random() * thisArray.length);
-
-console.log("my one brain cell says: " + thisArray[thought1], thisArray[thought2]);
+if (fnum == snum) {
+ alert("theyre the same!");
+} else if (fnum > snum){
+  alert("first one is bigger");
+} else /*if (fnum < snum)*/{
+  alert("second one is bigger");
+}
+// else {
+//   alert("no idea what just happened");
+// }

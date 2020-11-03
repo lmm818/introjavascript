@@ -1,12 +1,5 @@
-var firstThing = "my pig says moo";
-var secondThing = "my pig says oink";
-
-
-
-if (firstThing == secondThing) {
-  alert("theyre the same!");
-} else {
-  alert("theyre not the same!");
+function hithere(name, age) {
+  console.log("Hi there! My name is", name, "and I am", age, "years old.")
 }
 
-// alert();
+hithere("les", "20");

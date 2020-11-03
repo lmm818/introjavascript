@@ -1,13 +1,21 @@
-var fnum = 6;
-var snum = 7;
+function checking(num) {
 
-if (fnum == snum) {
- alert("theyre the same!");
-} else if (fnum > snum){
-  alert("first one is bigger");
-} else /*if (fnum < snum)*/{
-  alert("second one is bigger");
+  if (num == 18) {
+    console.log("you can vote! welcome first timer");
+  } else if (num >= 19){
+    console.log("you can vote!");
+  } else if (num == 17){
+    console.log("you can pre-register to vote!");
+  } else {
+    console.log("sorry you cant vote yet");
+  }
+
 }
-// else {
-//   alert("no idea what just happened");
-// }
+
+
+checking(20);
+checking(19);
+checking(18);
+checking(17);
+checking(15);
+checking(102);

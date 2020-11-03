@@ -1,5 +1,6 @@
-function hithere(name, age) {
-  console.log("Hi there! My name is", name, "and I am", age, "years old.")
-}
+var thisArray = ["tiny", "extra", "lord", "human", "uhhh", "icy"];
 
-hithere("les", "20");
+var thought1 = Math.floor(Math.random() * thisArray.length);
+var thought2 = Math.floor(Math.random() * thisArray.length);
+
+console.log("my one brain cell says: " + thisArray[thought1], thisArray[thought2]);
